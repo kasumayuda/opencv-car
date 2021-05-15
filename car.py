@@ -1,7 +1,7 @@
 import cv2
 
-cap = cv2.VideoCapture('video/car-night.mp4')
-#cap = cv2.VideoCapture('video/car.mp4')
+#cap = cv2.VideoCapture('video/car-night.mp4')
+cap = cv2.VideoCapture('video/car.mp4')
 
 car_cascade = cv2.CascadeClassifier('car.xml')
 
